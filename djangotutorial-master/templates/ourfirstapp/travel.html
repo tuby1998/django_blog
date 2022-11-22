@@ -1,0 +1,14 @@
+{% extends 'ourfirstapp/base.html' %}
+{% block content %}
+
+    <div class="row">
+        <div class="col-sm-12">
+            {% for inf in infohh %}
+            <p>{{inf.name}}</p>
+            <p>{{inf.phone}}</p>
+          {% endfor %} 
+        </div>
+    </div>
+            {% endblock %}
+            
+
